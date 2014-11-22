@@ -72,9 +72,14 @@
 
 
 **These variables were obtained from the original variables contained in the features.txt file within the UCI HAR Dataset through the following process:**
+
 1. The features were read in and assigned to the variable "names"
+
 2. The names were then applied to as labels for the variable "X"
+
 3. The original variable names were cleaned by removing the parentheses and spelling out the initial word "time" or "frequency" for each variable
+
 4. After several other transformation detailed in the README, the variables containing "mean." or "std." were identified and extracted.
+
 5. The variable "id" was created by using the cross-product of the activity names and the subject ID numbers to create a unique instance for each subject-activity pairing.
  
